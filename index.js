@@ -67,7 +67,7 @@ if(cardNumber) {
     cart.splice(i,1)
     total() = price
   }
-  return 'Your total cost is ' + price +', which will be charged to the card ' + cardNumber
+  return 'Your total cost is ' +  +', which will be charged to the card ' + cardNumber
 }else { 
   return 'Sorry, we don\'t have a credit card on file for you.'
 }
