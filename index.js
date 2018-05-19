@@ -53,10 +53,12 @@ function removeFromCart(itemName) {
         a = i
       } 
   }
-    if (a===i){
+    if (a){
     cart.splice(a, 1);
   return cart;
-    }else if (!a) {
+    }
+    
+  if (!a) {
       return 'That item is not in your cart.'
     }
 }
